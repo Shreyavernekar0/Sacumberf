@@ -12,7 +12,7 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      min-height: 100svh; /* safe on mobile */
+      min-height: 100svh; 
       margin: 0;
       font-family: 'Helvetica Neue', Arial, sans-serif;
       background: #f1e2d7;
@@ -20,7 +20,7 @@
       overflow: hidden;
     }
 
-    /* Instructions Screen */
+    
     #instructions {
       position: absolute;
       inset: 0;
@@ -44,18 +44,16 @@
 
     #instructions h1 {
       margin: 0 0 16px;
-      /* min 24px, preferred 5vw, max 40px */
       font-size: clamp(24px, 5vw, 40px);
     }
 
     #instructions p {
       margin: 0 0 24px;
-      /* min 16px, preferred 2.5vw, max 22px */
       font-size: clamp(16px, 2.5vw, 22px);
     }
 
     .game-board {
-      display: none;              /* hidden until Play is clicked */
+      display: none;      
       gap: 2vw;
       width: min(90vw, 90svh);
       height: min(90vw, 90svh);
@@ -296,3 +294,4 @@
   </script>
 </body>
 </html>
+
